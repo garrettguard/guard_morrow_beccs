@@ -1,27 +1,12 @@
-library(rgcam)
-
-library(ggplot2)
-
-library(tidyverse)
-
-library(dplyr)
-
-[SSPx_CO2_emissions] <- getQuery([SSPx], "CO2 emissions by region")
-
-[SSPx_CO2_emissions] <- add_global_rows([SSPx_CO2_emissions])
-
-[SSPx_CO2_emissions] <- add_rcp_col([SSPx_CO2_emissions])
-
-[SSPx_CO2_emissions] <- add_ccs_col([SSPx_CO2_emissions])
-
-[SSPx_CO2_emissions] <- subset(SSPx_CO2_emissions, RCP!="Baseline")
-
-[SSPx_CO2_emissions] <- subset(SSPx_CO2_emissions, region == "Global")
-
-ggplot([SSPx_CO2_emissions], aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100)
-
-### Better to not immediately store plot in a variable, but check it out first for issues. ###
-
-[SSPx_CO2_emissions_plot] <- ggplot([SSPx_CO2_emissions], aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100)
-
-[SSPx_CO2_emissions_plot] <- [SSPx_CO2_emissions_plot] + labs(y = expression(paste("Global Emissions CO"[2])), x = "Year") + ggtitle("[SSPx]")
+library(rgcam);
+library(ggplot2);
+library(tidyverse);
+library(dplyr);
+[SSPx_CO2_emissions] <- getQuery([SSPx], "CO2 emissions by region");
+add_global_rows([SSPx_CO2_emissions]);
+add_rcp_col([SSPx_CO2_emissions]);
+add_ccs_col([SSPx_CO2_emissions]);
+subset(SSPx_CO2_emissions, RCP!="Baseline");
+subset(SSPx_CO2_emissions, region == "Global");
+[SSPx_CO2_emissions_plot] <- ggplot([SSPx_CO2_emissions], aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(paste("Global Emissions CO"[2])), x = "Year") + ggtitle("[SSPx]");
+[SSPx_CO2_emissions_plot]

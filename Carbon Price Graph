@@ -1,0 +1,10 @@
+library(rgcam);
+library(ggplot2);
+library(tidyverse);
+library(dplyr);
+[SSPx_CO2_prices] <- getQuery([SSPx], "CO2 prices"); [SSPx_CO2_prices] <- add_rcp_col([SSPx_CO2_prices]); [SSPx_CO2_prices] <- add_ccs_col([SSPx_CO2_prices]);
+[SSPx_CO2_prices] <- subset([SSPx_CO2_prices], RCP!="Baseline");
+[SSPx_CO2_prices] <- subset([SSPx_CO2_prices], region == "Global");
+[SSPx_CO2_prices] <- subset([SSPx_CO2_prices], market == "globalCO2_LTG");
+[SSPx_CO2_price_plot] <- ggplot([SSPx_CO2_prices], aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(paste("Carbon Price $/tCO"[2])), x = "Year") + ggtitle("[SSPx]");
+[SSPx_CO2_price_plot]

@@ -1,0 +1,8 @@
+library(rgcam);
+library(ggplot2);
+library(tidyverse);
+library(dplyr);
+SSP2_net_C_uptake <- getQuery(SSP2, "net terrestrial C uptake"); SSP2_net_C_uptake <- add_rcp_col(SSP2_net_C_uptake); SSP2_net_C_uptake <- add_ccs_col(SSP2_net_C_uptake);
+SSP2_net_C_uptake <- subset(SSP2_net_C_uptake, RCP!="Baseline");
+SSP2_net_C_uptake_plot <- ggplot(SSP2_net_C_uptake, aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = "GtC", x = "Year") + ggtitle("SSP2")
+SSP2_net_C_uptake_plot

@@ -2,10 +2,11 @@ library(rgcam);
 library(ggplot2);
 library(dplyr);
 library(tidyverse);
+library(wesanderson);
+SSP2_primary_energy <- getQuery(SSP2, "primary energy consumption by region (direct equivalent)");
 SSP2_primary_energy <- add_global_rows(SSP2_primary_energy);
 SSP2_primary_energy <- add_ccs_col(SSP2_primary_energy);
-SSP2_primary_energy <- add_rcp_col(SSP2_primary_energy);
+SSP2_primary_energy <- add_rcp_col(SSP2_primary_energy); SSP2_primary_energy <- add_fuel_col(SSP2_primary_energy)
 SSP2_primary_energy <- subset(SSP2_primary_energy, region == "Global");
 SSP2_primary_energy <- subset(SSP2_primary_energy, RCP!="Baseline");
-SSP2_primary_energy_plot <- ggplot(SSP2_primary_energy, aes(year, value, fill=fuel)) + geom_bar(stat="identity") + xlim(2015,NA) + facet_grid(RCP ~ CCS) + xlab("Year") + ylab("Global Primary Energy EJ/Year") + ggtitle("SSP2");
-SSP2_primary_energy_plot
+SSP2_primary_energy_plot <- ggplot(SSP2_primary_energy, aes(year, value, fill=fuel_type)) + geom_bar(stat="identity") + xlim(2015,NA) + facet_grid(RCP ~ CCS) + xlab("Year") + ylab("Global Primary Energy EJ/Year") + ggtitle("SSP2") + scale_fill_manual(values = wes_palette("Zissou1")); SSP2_primary_energy_plot

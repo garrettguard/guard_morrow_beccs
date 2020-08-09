@@ -1,0 +1,10 @@
+add_ssp_col <- function(tibble) {tibble <- tibble %>%
+     mutate( SSP = case_when(
+         grepl("SSP1", scenario, fixed=TRUE) ~ "SSP1",
+         grepl("SSP2", scenario, fixed=TRUE) ~ "SSP2",
+         grepl("SSP3", scenario, fixed=TRUE) ~ "SSP3",
+         grepl("SSP4", scenario, fixed=TRUE) ~ "SSP4",
+         grepl("SSP5", scenario, fixed=TRUE) ~ "SSP5",
+         TRUE                     
+~ "Baseline"
+     )) }

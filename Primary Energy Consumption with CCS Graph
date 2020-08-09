@@ -2,11 +2,11 @@ library(rgcam);
 library(ggplot2);
 library(dplyr);
 library(tidyverse);
-[SSPx_primary_energy_CCS] <- getQuery([SSPx], "primary energy consumption with CCS by region (direct equivalent)");
-[SSPx_primary_energy_CCS] <- add_global_rows([SSPx_primary_energy_CCS]);
-[SSPx_primary_energy_CCS] <- add_ccs_col([SSPx_primary_energy_CCS]);
-[SSPx_primary_energy_CCS] <- add_rcp_col([SSPx_primary_energy_CCS]);
-[SSPx_primary_energy_CCS] <- subset([SSPx_primary_energy_CCS], region == "Global");
-[SSPx_primary_energy_CCS] <- subset([SSPx_primary_energy_CCS], RCP!="Baseline");
-[SSPx_primary_energy_CCS_plot] <- ggplot([SSPx_primary_energy_CCS], aes(year, value, fill=fuel)) + geom_bar(stat="identity") + xlim(2015,NA) + facet_wrap(~RCP + CCS) + xlab("Year") + ylab("Global Primary Energy with CCS EJ/Year") + ggtitle("[SSPx]");
-[SSPx_primary_energy_CCS_plot]
+SSP1_primary_energy_CCS <- getQuery(SSP1, "primary energy consumption with CCS by region (direct equivalent)");
+SSP1_primary_energy_CCS <- add_global_rows(SSP1_primary_energy_CCS);
+SSP1_primary_energy_CCS <- add_ccs_col(SSP1_primary_energy_CCS);
+SSP1_primary_energy_CCS <- add_rcp_col(SSP1_primary_energy_CCS);
+SSP1_primary_energy_CCS <- subset(SSP1_primary_energy_CCS, region == "Global");
+SSP1_primary_energy_CCS <- subset(SSP1_primary_energy_CCS, RCP!="Baseline");
+SSP1_primary_energy_CCS_plot <- ggplot(SSP1_primary_energy_CCS, aes(year, value, fill=fuel)) + geom_bar(stat="identity") + xlim(2015,NA) + facet_wrap(~RCP + CCS) + xlab("Year") + ylab("Global Primary Energy with CCS EJ/Year") + ggtitle("[SSPx]");
+SSP1_primary_energy_CCS_plot

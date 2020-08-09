@@ -3,7 +3,7 @@ library(ggplot2);
 library(dplyr);
 library(tidyverse);
 SSP1_primary_energy_CCS <- getQuery(SSP1, "primary energy consumption with CCS by region (direct equivalent)");
-SSP1_primary_energy_CCS <- add_global_rows(SSP1_primary_energy_CCS);
+SSP1_primary_energy_CCS <- add_global_region(SSP1_primary_energy_CCS);
 SSP1_primary_energy_CCS <- add_ccs_col(SSP1_primary_energy_CCS);
 SSP1_primary_energy_CCS <- add_rcp_col(SSP1_primary_energy_CCS);
 SSP1_primary_energy_CCS <- subset(SSP1_primary_energy_CCS, region == "Global");

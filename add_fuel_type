@@ -1,0 +1,15 @@
+add_fuel_type <- function(tibble) {tibble <- tibble %>%
+    mutate( fuel_type = case_when(
+        grepl("a oil", fuel, fixed=TRUE) ~ "a fossil fuels",
+        grepl("b natural gas", fuel, fixed=TRUE) ~ "a fossil fuels",
+        grepl("c coal", fuel, fixed=TRUE) ~ "a fossil fuels",
+        grepl("d biomass", fuel, fixed=TRUE) ~ "b biomass",
+        grepl("e nuclear", fuel, fixed=TRUE) ~ "c nuclear",
+grepl("f hydro", fuel, fixed=TRUE) ~ "d renewables",
+grepl("g wind", fuel, fixed=TRUE) ~ "d renewables",
+grepl("h solar", fuel, fixed=TRUE) ~ "d renewables",
+grepl("i geothermal", fuel, fixed=TRUE) ~ "d renewables",
+grepl("j traditional biomass", fuel, fixed=TRUE) ~ "etraditional biomass",
+        TRUE                     
+~ "f other"
+    )) }

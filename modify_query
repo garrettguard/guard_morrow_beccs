@@ -1,0 +1,6 @@
+modify_query <- function(tibble) {
+tibble <- add_global_region(tibble)
+tibble <- add_ssp_col(tibble)
+tibble <- add_rcp_col(tibble)
+tibble <- add_ccs_col(tibble)
+}

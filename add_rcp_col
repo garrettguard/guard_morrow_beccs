@@ -1,0 +1,16 @@
+add_rcp_col <- function(tibble) {tibble <- tibble %>%
+          mutate(RCP = case_when(
+              grepl("1p9", scenario, fixed=TRUE) ~ "RCP 1.9",
+              grepl("1.9", scenario, fixed=TRUE) ~ "RCP 1.9",
+              grepl("2p6", scenario, fixed=TRUE) ~ "RCP 2.6",
+              grepl("2.6", scenario, fixed=TRUE) ~ "RCP 2.6",
+              grepl("3p4", scenario, fixed=TRUE) ~ "RCP 3.4",
+              grepl("3.4", scenario, fixed=TRUE) ~ "RCP 3.4",
+              grepl("4p5", scenario, fixed=TRUE) ~ "RCP 4.5",
+              grepl("4.5", scenario, fixed=TRUE) ~ "RCP 4.5",
+              grepl("6p0", scenario, fixed=TRUE) ~ "RCP 6.0",
+              grepl("6.0", scenario, fixed=TRUE) ~ "RCP 6.0",
+              grepl("7p0", scenario, fixed=TRUE) ~ "RCP 7.0",
+              grepl("7.0", scenario, fixed=TRUE) ~ "RCP 7.0",
+              TRUE                      ~ "Baseline"
+          )) }

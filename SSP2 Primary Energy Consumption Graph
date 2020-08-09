@@ -4,7 +4,7 @@ library(dplyr);
 library(tidyverse);
 library(wesanderson);
 SSP2_primary_energy <- getQuery(SSP2, "primary energy consumption by region (direct equivalent)");
-SSP2_primary_energy <- add_global_rows(SSP2_primary_energy);
+SSP2_primary_energy <- add_global_region(SSP2_primary_energy);
 SSP2_primary_energy <- add_ccs_col(SSP2_primary_energy);
 SSP2_primary_energy <- add_rcp_col(SSP2_primary_energy); SSP2_primary_energy <- add_fuel_col(SSP2_primary_energy)
 SSP2_primary_energy <- subset(SSP2_primary_energy, region == "Global");

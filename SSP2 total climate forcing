@@ -1,5 +1,5 @@
 SSP2_rad_force <- getQuery(SSP2, "total climate forcing");
 SSP2_rad_force <- add_rcp_col(SSP2_rad_force);
 SSP2_rad_force <- add_ccs_col(SSP2_rad_force);
-SSP2_rad_force_plot <- ggplot(SSP2_rad_force, aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(~W/m^2), x = "Years") + ggtitle("SSP2");
+SSP2_rad_force_plot <- ggplot(SSP2_rad_force, aes(year, value, color = RCP)) + geom_line() + scale_color_brewer(palette = "Set2") + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(~W/m^2), x = "Years") + ggtitle("SSP2");
 SSP2_rad_force_plot

@@ -1,0 +1,13 @@
+SSP3_CO2_emissions <- add_rcp_col
+SSP3_CO2_emissions <- getQuery(SSP3, "CO2 emissions by region")
+SSP3_CO2_emissions <- add_rcp_col(SSP3_CO2_emissions)
+SSP3_CO2_emissions <- add_ccs_col(SSP3_CO2_emissions)
+SSP3_CO2_emissions <- add_global_region(SSP3_CO2_emissions)
+SSP3_CO2_emissions <- subset(SSP3_CO2_emissions, region=="Global");
+SSP3_CO2_emissions <- arrange(SSP3_CO2_emissions, scenario, year);
+SSP3_C_price <- arrange(SSP3_C_price, scenario, year);
+SSP3_CO2_emissions <- subset(SSP3_CO2_emissions, RCP!="Baseline");
+SSP3_CO2_emissions$price <- SSP3_C_price$value;
+SSP3_CO2_emissions$revenue <- SSP3_CO2_emissions$price * SSP3_CO2_emissions$value;
+SSP3_C_tax_revenue_plot <- ggplot(SSP3_CO2_emissions, aes(year, revenue, color = RCP)) + geom_line() + scale_color_brewer(palette = "Set2") + xlim(2000, 2100) + ggtitle("SSP3") + labs(x = "Year", y = "1990$ t/C") + facet_wrap(~CCS);
+SSP3_C_tax_revenue_plot

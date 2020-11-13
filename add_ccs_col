@@ -1,5 +1,5 @@
 add_ccs_col <- function(tibble) {tibble <- tibble %>%
-     mutate( SSP = case_when(
+     mutate( CCS = case_when(
          grepl("NO_CCS", scenario, fixed=TRUE) ~ "NO CCS",
          grepl("NO_FF_CCS", scenario, fixed=TRUE) ~ "NO FF CCS",
          grepl("NO_BECCS", scenario, fixed=TRUE) ~ "NO BECCS",

@@ -9,5 +9,5 @@ SSP1_C_price <- add_ccs_col(SSP1_C_price);
 SSP1_C_price <- subset(SSP1_C_price, RCP!="Baseline");
 SSP1_C_price <- subset(SSP1_C_price, region == "Global");
 SSP1_C_price <- subset(SSP1_C_price, market == "globalCO2_LTG");
-SSP1_C_price_plot <- ggplot(SSP1_C_price, aes(year, value, color = RCP)) + geom_line() + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(paste("Carbon Price $/tCO"[2])), x = "Year") + ggtitle("SSP1") + scale_color_brewer(palette = "Set2");
+SSP1_C_price_plot <- ggplot(SSP1_C_price, aes(year, value, color = RCP)) + geom_line(size=2) + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(paste("Carbon Price $/tCO"[2])), x = "Year") + ggtitle("SSP1") + scale_color_brewer(palette = "Set2") + theme(text = element_text(size = 30));
 SSP1_C_price_plot

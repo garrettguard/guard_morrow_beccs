@@ -8,5 +8,5 @@ SSP1_primary_energy_CCS <- add_ccs_col(SSP1_primary_energy_CCS);
 SSP1_primary_energy_CCS <- add_rcp_col(SSP1_primary_energy_CCS); SSP1_primary_energy_CCS <- add_fuel_type_CCS(SSP1_primary_energy_CCS)
 SSP1_primary_energy_CCS <- subset(SSP1_primary_energy_CCS, region == "Global");
 SSP1_primary_energy_CCS <- subset(SSP1_primary_energy_CCS, RCP!="Baseline");
-SSP1_primary_energy_CCS_plot <- ggplot(SSP1_primary_energy_CCS, aes(year, value, fill=fuel_type)) + geom_bar(stat="identity") + xlim(2015,NA) + facet_grid(RCP ~ CCS) + xlab("Year") + ylab("Global Primary Energy with CCS EJ/Year") + ggtitle("SSP1") + scale_fill_brewer(palette = "Set2");
+SSP1_primary_energy_CCS_plot <- ggplot(SSP1_primary_energy_CCS, aes(year, value, fill=fuel_type)) + geom_bar(stat="identity") + xlim(2015,NA) + facet_grid(RCP ~ CCS) + xlab("Year") + ylab("Global Primary Energy with CCS EJ/Year") + ggtitle("SSP1") + scale_fill_brewer(palette = "Set2") + theme(text = element_text(size = 30));
 SSP1_primary_energy_CCS_plot

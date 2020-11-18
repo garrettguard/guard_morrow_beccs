@@ -3,5 +3,5 @@ library(ggplot2);
 library(dplyr);
 SSP3_agg_land <- getQuery(SSP3, "aggregated land allocation");
 SSP3_LUC <- diffScenarios(SSP3_agg_land, c("SSP3_RCP2p6_", "SSP3_RCP2p6_NO_BECCS"), c("landleaf","year"));
-ggplot(SSP3_LUC, aes(x=year, y=value)) + geom_bar(aes(fill=landleaf), stat="identity", color="black", position = "stack") + xlab("Year") + ylab("Difference in Land Allocation between RCP 2.6 All CCS and RCP 2.6 No BECCS") + theme(text = element_text(size = 20));
+ggplot(SSP3_LUC, aes(x=year, y=value)) + geom_bar(aes(fill=landleaf), stat="identity", color="black", position = "stack") + xlab("Year") + ylab("Difference in Land Allocation between RCP 2.6 All CCS and RCP 2.6 No BECCS") + ggtitle(SSP3) + theme(text = element_text(size = 20));
 SSP3_LUC_plot

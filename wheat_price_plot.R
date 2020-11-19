@@ -4,6 +4,7 @@
 # You can adjust the scenario name and the year by changing the variables on lines 30 and 31.
 
 # Load required libraries
+library(tidyverse)
 library(dplyr)
 library(ggplot2)
 library(gcammaptools)

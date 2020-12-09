@@ -1,3 +1,7 @@
+# Create a function that makes it easy to
+# add a column to an rgcam query result to identify 
+# the SSP used in each scenario.
+
 add_ssp_col <- function(tibble) {tibble <- tibble %>%
      mutate( SSP = case_when(
          grepl("SSP1", scenario, fixed=TRUE) ~ "SSP1",

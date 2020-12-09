@@ -16,6 +16,6 @@ File Name | Purpose
 `industry_bioenergy.xml` | Enable the industrial sectors to use both conventional gas and liquids or biogas and bioliquids as inputs.
 `electricity_water_bioenergy.xml` | Enable the gas and refined liquids subsectors of the electricity sector to use both conventional gas/liquids or biogas/bioliquids as inputs.
 `no_ff_ccs.xml` | Delete/disable technologies that use CCS to capture emissions from fossil fuels, as well as disabling CCS on cement process emissions. **Including this file as a ScenarioComponent will disable all fossil fuel CCS.**
-`no_ff_ccs.xml` | Delete/disable technologies that use CCS to capture emissions from biofuels, as well as disabling CCS on cement process emissions. **Including this file as a ScenarioComponent will disable all BECCS (bioenergy with CCS).**
+`no_beccs.xml` | Delete/disable technologies that use CCS to capture emissions from biofuels, as well as disabling CCS on cement process emissions. **Including this file as a ScenarioComponent will disable all BECCS (bioenergy with CCS).**
 
 

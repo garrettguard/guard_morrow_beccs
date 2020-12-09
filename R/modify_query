@@ -1,3 +1,8 @@
+# Create a function that modifies an rgcam query
+# by calling various other functions in this folder.
+# This makes it easy to look up global results and
+# sort/filter them by SSP, RCP, and/or CCS scheme.
+
 modify_query <- function(tibble) {
 tibble <- add_global_region(tibble)
 tibble <- add_ssp_col(tibble)

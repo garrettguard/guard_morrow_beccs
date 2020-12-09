@@ -1,3 +1,7 @@
+# Create a function that makes it easy to
+# add a column to an rgcam query result to identify 
+# the RCP (forcing target) used in each scenario.
+
 add_rcp_col <- function(tibble) {tibble <- tibble %>%
           mutate(RCP = case_when(
               grepl("1p9", scenario, fixed=TRUE) ~ "RCP 1.9",

@@ -6,4 +6,6 @@ If you have copied the files from the [xml/input/](../../input) folder of this r
 
 To use a different forcing target, simply change the file name of the `policy-target-file` on line 6 of the configuration file.
 
-Note that to use these files in GCAM, you will need to either rename them `configuration.xml` or pass the name of the configuration file to GCAM (e.g., by editing the `run-gcam.bat` file in the `/exe` folder of your GCAM installation).  
+**IMPORTANT:** These configuration files are set to output results to separate databases for each SSP (e.g., `database_SSP5`). If you wish to output all results to a single database, change the `xmldb-location` on line 8 of each configuration file. To output results to GCAM's default database, set that value to `../output/database_basexdb`
+
+To use these files in GCAM, you will need to either rename them `configuration.xml` or pass the name of the configuration file to GCAM (e.g., by editing the `run-gcam.bat` file in the `/exe` folder of your GCAM installation).  

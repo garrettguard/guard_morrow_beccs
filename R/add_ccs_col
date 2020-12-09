@@ -1,3 +1,6 @@
+# Add a column to an rgcam query result to identify 
+# the CCS scheme used in each scenario.
+
 add_ccs_col <- function(tibble) {tibble <- tibble %>%
      mutate( CCS = case_when(
          grepl("NO_CCS", scenario, fixed=TRUE) ~ "NO CCS",

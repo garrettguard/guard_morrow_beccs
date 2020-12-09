@@ -1,3 +1,7 @@
+# Take an rgcam query result and
+# add a set of "Global" rows that
+# sum the values for each region.
+
 add_global_region <- function(tibble) {
   column <- aggregate(value ~ ., dplyr::select(tibble, -region), sum)
   region <- tibble::add_column(column, region = "Global", .after="scenario")

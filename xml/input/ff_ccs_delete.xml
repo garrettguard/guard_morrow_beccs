@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <scenario>
+    <world>
+		<region name="USA">		
+		<supplysector name="electricity">
+			<subsector name="coal">
+				<stub-technology name="coal (conv pul CCS)" delete="1"/>
+				<stub-technology name="coal (IGCC CCS)" delete="1"/>
+			</subsector>
+		</supplysector>
+		</region>
+	</world>
+  </scenario>
+ 

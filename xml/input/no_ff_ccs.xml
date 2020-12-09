@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <scenario>
+    <world>
+		<region name="USA">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name="elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Africa_Eastern">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Africa_Northern">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Africa_Southern">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Africa_Western">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Australia_NZ">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Brazil">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Canada">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Central America and Caribbean">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Central Asia">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="China">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="EU-12">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="EU-15">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Europe_Eastern">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Europe_Non_EU">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="European Free Trade Association">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="India">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Indonesia">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Japan">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Mexico">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Middle East">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Pakistan">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Russia">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="South Africa">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="South America_Northern">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="South America_Southern">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="South Asia">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="South Korea">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Southeast Asia">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Taiwan">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Argentina">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+		<region name="Colombia">
+		<pass-through-sector name="elec_gas (CC CCS)">
+			<subsector name="gas (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<pass-through-sector name= "elec_refined liquids (CC CCS)">
+			<subsector name="refined liquids (CC CCS)">
+				<share-weight fillout="1" year="2015">0</share-weight>
+			</subsector>
+		</pass-through-sector>
+		<supplysector name="electricity">
+		<subsector name="coal">
+			<stub-technology name="coal (conv pul CCS)" delete="1"/>
+			<stub-technology name="coal (IGCC CCS)" delete="1"/>
+		</subsector>
+		</supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 1" delete="1"/></subsector></supplysector>
+		<supplysector name="refining"><subsector name="coal to liquids"><stub-technology name="coal to liquids CCS level 2" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="coal"><stub-technology name="coal chemical CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="H2 central production"><subsector name="gas"><stub-technology name="natural gas steam reforming CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="coal"><stub-technology name="coal CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="N fertilizer"><subsector name="gas"><stub-technology name="gas CCS" delete="1"/></subsector></supplysector>
+		<supplysector name="cement"><subsector name="cement"><stub-technology name="cement CCS" delete="1"/></subsector></supplysector>
+		</region>
+	</world>
+</scenario>

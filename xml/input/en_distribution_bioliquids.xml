@@ -1,0 +1,1256 @@
+<?xml version="1.0" encoding="UTF-8"?><scenario>
+    <world>
+        <region name="USA">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Eastern">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Northern">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Southern">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Africa_Western">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Australia_NZ">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Brazil">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Canada">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central America and Caribbean">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Central Asia">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="China">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-12">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="EU-15">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Eastern">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Europe_Non_EU">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="European Free Trade Association">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="India">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Indonesia">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Japan">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Mexico">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Middle East">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Pakistan">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Russia">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Africa">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Northern">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South America_Southern">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Asia">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="South Korea">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Southeast Asia">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Taiwan">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse">
+						<period year="2015">
+							<share-weight>0</share-weight>
+                        </period>
+					</stub-technology>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">0</share-weight>
+					<share-weight fillout="1" year="2020">1</share-weight>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Argentina">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <region name="Colombia">
+            <supplysector name="refined liquids enduse">
+                <subsector name="refined liquids enduse">
+                    <stub-technology name="refined bioliquids enduse"/>
+                </subsector>
+            </supplysector>
+            <supplysector name="refined bioliquids industrial">
+                <relative-cost-logit>
+                    <logit-exponent fillout="1" year="1975">-3</logit-exponent>
+                </relative-cost-logit>
+                <output-unit>EJ</output-unit>
+                <input-unit>EJ</input-unit>
+                <price-unit>1975$/GJ</price-unit>
+                <subsector name="refined bioliquids industrial">
+                    <relative-cost-logit>
+                        <logit-exponent fillout="1" year="1975">-6</logit-exponent>
+                    </relative-cost-logit>
+                    <share-weight fillout="1" year="1975">1</share-weight>
+                    <interpolation-rule apply-to="share-weight" from-year="2010" to-year="2100">
+                        <interpolation-function name="linear"/>
+                    </interpolation-rule>
+                    <stub-technology name="refined bioliquids industrial"/>
+                </subsector>
+            </supplysector>
+        </region>
+        <global-technology-database>
+            <location-info sector-name="refined liquids enduse" subsector-name="refined liquids enduse">
+                <technology name="refined bioliquids enduse">
+                    <period year="1975">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>1.1</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                </technology>
+            </location-info>
+            <location-info sector-name="refined bioliquids industrial" subsector-name="refined bioliquids industrial">
+                <technology name="refined bioliquids industrial">
+                    <period year="1975">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="1990">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2005">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2010">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>0</share-weight>
+                    </period>
+                    <period year="2015">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2020">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2025">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2030">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2035">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2040">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2045">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2050">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2055">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2060">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2065">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2070">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2075">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2080">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2085">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2090">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2095">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                    <period year="2100">
+                        <minicam-energy-input name="biorefining">
+                            <efficiency>1</efficiency>
+                        </minicam-energy-input>
+                        <CO2 name="CO2"/>
+                        <minicam-non-energy-input name="non-energy">
+                            <input-cost>0</input-cost>
+                        </minicam-non-energy-input>
+                        <share-weight>1</share-weight>
+                    </period>
+                </technology>
+            </location-info>
+        </global-technology-database>
+    </world>
+</scenario>

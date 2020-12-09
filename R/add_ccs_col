@@ -1,4 +1,5 @@
-# Add a column to an rgcam query result to identify 
+# Create a function that makes it easy to
+# add a column to an rgcam query result to identify 
 # the CCS scheme used in each scenario.
 
 add_ccs_col <- function(tibble) {tibble <- tibble %>%

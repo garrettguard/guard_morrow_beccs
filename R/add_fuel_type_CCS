@@ -1,3 +1,12 @@
+# Create a function that makes it easy to
+# add a column to an rgcam query result to identify 
+# the  fuel type/CCS in primary energy production.
+
+# Note this exploits the fact that case_when just uses
+# the first match it finds. So, biomass CCS gets caught
+# in the first case, so any remaining CCS is fossil CCS,
+# any remaining fossil fuels don't use CCS, and so on.
+
 add_fuel_type_CCS <- function(tibble) {tibble <- tibble %>%
     mutate( fuel_type = case_when(
         grepl("d biomass CCS", fuel, fixed=TRUE) ~ "b biomass CCS",

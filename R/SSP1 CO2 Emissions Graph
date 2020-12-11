@@ -8,5 +8,5 @@ SSP1_CO2_emissions <- add_rcp_col(SSP1_CO2_emissions);
 SSP1_CO2_emissions <- add_ccs_col(SSP1_CO2_emissions);
 SSP1_CO2_emissions <- subset(SSP1_CO2_emissions, RCP!="Baseline");
 SSP1_CO2_emissions <- subset(SSP1_CO2_emissions, region == "Global");
-SSP1_CO2_emissions_plot <- ggplot(SSP1_CO2_emissions, aes(year, value, color = RCP)) + geom_line(size=2) + facet_wrap(~CCS) + xlim(2000, 2100) + labs(y = expression(paste("Global Emissions CO"[2])), x = "Year") + ggtitle("SSP1") + scale_colour_brewer(palette = "Set2");
+SSP1_CO2_emissions_plot <- ggplot(SSP1_CO2_emissions, aes(year, value, color = CCS)) + geom_line(size=2) + facet_grid(vars(rows = RCP)) + xlim(2000, 2100) + labs(y = expression(paste("Global Emissions CO"[2])), x = "Year") + ggtitle("SSP1") + scale_colour_brewer(palette = "Set2") + theme(text = element_text(size = 30)); 
 SSP1_CO2_emissions_plot
